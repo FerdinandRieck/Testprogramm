@@ -80,5 +80,5 @@ anim = @animate for i = 1:nt-1
     T = reshape(T,N,N)
     plot(X,Y,T,st=:surface,zlims=(18, 32))
 end
-gif(anim, "temperature_2D.gif", fps = 10)
+gif(anim, "temperature_2D.gif", fps = 100)
 
